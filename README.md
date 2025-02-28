@@ -1,0 +1,2 @@
+# SO
+esercizi SISTEMI OPERATIVI
