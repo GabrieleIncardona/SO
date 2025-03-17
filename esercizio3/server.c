@@ -19,10 +19,9 @@ int main()
 	struct sockaddr_in cli_addr;
 	int sockfd;
 	srand(time(NULL));
-
+	LIST giocatori = NewList();
 	// Socket opening
 	while(1){
-		LIST giocatori = NewList();
 		LIST giocatoriConnessi = NewList();
 		for (int i = 0; i<= 3; i++){
 			ItemType giocatore;
